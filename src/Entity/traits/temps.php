@@ -10,7 +10,7 @@ trait temps
     private ?\DateTimeImmutable $ceatedAt = null;
 
     #[ORM\Column]
-    private ?\DateTime $updatedAt = null;
+    private ?\DateTimeImmutable $updatedAt = null;
 
 
     public function getCeatedAt(): ?\DateTimeImmutable
